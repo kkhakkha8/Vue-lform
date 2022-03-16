@@ -1,15 +1,16 @@
 <template>
   
   <p>Hello THere</p>
+  <SignUp />
 </template>
 
 <script>
-
+import SignUp from "./components/SingUp.vue";
 
 export default {
   name: 'App',
   components: {
-    
+    SignUp
   }
 }
 </script>
@@ -22,5 +23,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body{
+  background-color: #eee;
+  margin : 0;
 }
 </style>
