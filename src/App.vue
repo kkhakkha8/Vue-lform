@@ -1,6 +1,4 @@
 <template>
-  
-  <p>Hello THere</p>
   <SignUp />
 </template>
 
